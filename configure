@@ -1,0 +1,18 @@
+#!/bin/sh
+#File Name    : configure.sh
+#Author       : aico
+#Mail         : 2237616014@qq.com
+#Github       : https://github.com/TBBtianbaoboy
+#Site         : https://www.lengyangyu520.cn
+#Create Time  : 2021-11-24 21:31:06
+#Description  : 
+
+#:for debugging and controlling script behavior
+set -eu
+#:check script but not execute,below is example.
+#bash -n main.sh
+echo "正在进行预配置......"
+chmod +x script/configure.sh
+chmod +x script/end.sh
+sleep 2
+echo "预配置成功"

@@ -1,0 +1,15 @@
+# ncm-aico pkg-config source file
+
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib64
+includedir=/usr/include
+
+Name: ncm-aico
+Description: ncm-aico is a linux platform music player
+Version: 1.0.0
+Requires:
+Conflicts:
+Libs: -L${libdir} -lao -lcurl -lncursesw -lmenuw -lpthread -lcrypto -lmpg123
+Libs.private: -lpthread -ldl 
+Cflags: -I${includedir}
