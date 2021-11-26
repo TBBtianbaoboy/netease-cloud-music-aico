@@ -1,0 +1,46 @@
+{
+  "LastItem":{
+    "Key":"k",
+    "Description":"make selected cursor goto last item"
+  },
+
+  "NextItem":{
+    "Key":"j",
+    "Description":"make selected cursor goto next item"
+  },
+
+  "LastMenu":{
+    "Key":"h",
+    "Description":"goto last menu"
+  },
+
+  "NextMenu":{
+    "Key":"l",
+    "Description":"goto next menu"
+  },
+
+  "Logout":{
+    "Key":"c",
+    "Description":"user logout"
+  },
+
+  "PlaySong":{
+    "Key":" ",
+    "Description":"playing selected song or stop selected song"
+  },
+
+  "LastPageItem":{
+    "Key":"u",
+    "Description":"make cursor goto last item page"
+  },
+
+  "NextPageItem":{
+    "Key":"d",
+    "Description":"make cursor goto next item page"
+  },
+
+  "HeadItem":{
+    "Key":"G",
+    "Description":"make cursor goto the first item"
+  }
+}

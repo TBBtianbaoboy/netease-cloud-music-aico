@@ -1,4 +1,5 @@
 # netease-cloud-music-aico
+![](img/showPlay.gif)
 # Installation
 > before install neteasr-cloud-music-aico,please preinstall some necessary libs 
 ## Centos 7/8
