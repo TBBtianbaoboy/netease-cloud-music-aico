@@ -13,7 +13,7 @@ yum install -y libao-devel
 # install libcurl-devel
 yum install -y libcurl-devel
 ```
-## Fedora 34+
+## Fedora
 ```sh
 dnf install -y \
 libao-devel \
