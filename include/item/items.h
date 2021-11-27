@@ -42,5 +42,6 @@ class ITEM_UTILS final {
         static bool         UserLogin();
         static void         SearchInput(const string&,char* input);
         static short        GetItenIndex(MENU*);
+        static void         Destory();
 };
 #endif //ITEM_H

@@ -49,10 +49,10 @@ checkPkgConfig(){
 checkNetwork(){
   yOutput "[1]###### 检查网络状态中..."
   local timeout=2
-  local server=http://www.lengyangyu520.cn
+  server=baidu.com
   local ret_code=`curl -I -m 10 -o /dev/null -s -w %{http_code} ${server}`
   sleep 1
-  if [ "$ret_code" = "301" ];then
+  if [ "$ret_code" = "200" ];then
     gOutput "-------------------------网络状态良好"
   else
     rOutput "-------------------------请确保网络连接正常再重试"

@@ -24,6 +24,7 @@
 #include <menu.h>
 #include <string>
 #include <unistd.h>
+#include <memory>
 //global control
 MAIN_MENU *main_menu = nullptr;
 Selected_Playlists_MENU *selected_playlists_menu = nullptr;
@@ -1183,4 +1184,23 @@ void ITEM_UTILS::SearchInput(const string &anno, char* input)
 
 short ITEM_UTILS::GetItenIndex(MENU *menu){
     return current_item(menu)->index;
+}
+
+void ITEM_UTILS::Destory(){
+    if(main_menu)
+        delete [] main_menu;
+    if(selected_playlists_songs_menu)
+        delete [] selected_playlists_songs_menu;
+    if(selected_playlists_menu)
+        delete [] selected_playlists_menu;
+    if(selected_song_comment_menu)
+        delete [] selected_song_comment_menu;
+    if(artist_menu)
+        delete [] artist_menu;
+    if(artist_sub_menu)
+        delete artist_sub_menu;
+    if(artist_album_menu)
+        delete [] artist_album_menu;
+    if(search_menu)
+        delete search_menu;
 }
