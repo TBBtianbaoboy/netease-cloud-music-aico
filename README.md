@@ -35,3 +35,6 @@ chmod +x ./configure
 make
 ```
 **Annotation:** The ELF named `aico` in `$HOME/bin`,if this path is not in your `$PATH`,please add it to.
+
+# TroubleShooting 
+- Currently, shortcut key customization is not supported
