@@ -38,3 +38,4 @@ make
 
 # TroubleShooting 
 - Currently, shortcut key customization is not supported
+- Memory Leak -----(wait recover)
